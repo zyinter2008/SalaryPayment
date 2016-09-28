@@ -14,6 +14,8 @@ public:
 
 	void addEmployee(int empid, Employee* employee);
 	Employee* getEmployee(int empid);
+	void remove(int empid);
+	void clear();
 
 	map<int, Employee*> employees;
 };
