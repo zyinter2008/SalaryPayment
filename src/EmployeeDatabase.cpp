@@ -1,10 +1,6 @@
 #include "EmployeeDatabase.h"
 
-EmployeeDatabase::EmployeeDatabase() {
-}
-
-EmployeeDatabase::~EmployeeDatabase() {
-}
+EmployeeDatabase employeeDatabase;
 
 void EmployeeDatabase::addEmployee(int empid, Employee* employee) {
 	employees[empid] = employee;

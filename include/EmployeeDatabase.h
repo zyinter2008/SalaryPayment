@@ -9,9 +9,6 @@ using namespace std;
 
 class EmployeeDatabase {
 public:
-	EmployeeDatabase();
-	virtual ~EmployeeDatabase();
-
 	void addEmployee(int empid, Employee* employee);
 	Employee* getEmployee(int empid);
 	void remove(int empid);
