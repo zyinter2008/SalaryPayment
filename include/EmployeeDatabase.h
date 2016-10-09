@@ -14,6 +14,7 @@ public:
 	void remove(int empid);
 	void clear();
 
+private:
 	map<int, Employee*> employees;
 };
 

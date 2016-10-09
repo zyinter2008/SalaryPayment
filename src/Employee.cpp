@@ -31,6 +31,7 @@ void Employee::setName(const string &name) {
 void Employee::setAddress(const string &address) {
 	this->address = address;
 }
+
 void Employee::setSalary(double salary) {
 	this->salary = salary;
 }
